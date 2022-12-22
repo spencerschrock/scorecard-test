@@ -45,7 +45,7 @@ require (
 
 require (
 	github.com/Masterminds/semver/v3 v3.2.0
-	github.com/caarlos0/env/v6 v6.10.0
+	github.com/caarlos0/env/v6 v6.10.1
 	github.com/gobwas/glob v0.2.3
 	github.com/google/osv-scanner v0.0.0-20221212045131-8aef1778b823
 	github.com/mcuadros/go-jsonschema-generator v0.0.0-20200330054847-ba7a369d4303
