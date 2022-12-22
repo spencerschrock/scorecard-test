@@ -20,10 +20,10 @@ name: docker-build
 on:
  push:
   branches:
-  - main
+  - fake-main
  pull_request:
   branches:
-  - main
+  - fake-main
 
 env:
   PROTOC_VERSION: 3.17.3
