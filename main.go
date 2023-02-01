@@ -25,6 +25,6 @@ import (
 func main() {
 	opts := options.New()
 	if err := cmd.New(opts).Execute(); err != nil {
-		log.Fatalf("error during command execution: %v", err)
+		log.Fatalf("test error during command execution: %v", err)
 	}
 }
