@@ -30,6 +30,8 @@ import (
 var _ = Describe("E2E TEST:"+checks.CheckSAST, func() {
 	Context("E2E TEST:Validating use of SAST tools", func() {
 		It("Should return use of SAST tools", func() {
+			//nolint:lll
+			Skip("Skipping OSS-Fuzz test due to issues searching google/oss-fuzz with the REST API. https://github.com/ossf/scorecard/issues/2670")
 			dl := scut.TestDetailLogger{}
 			repo, err := githubrepo.MakeGithubRepo("ossf-tests/airflow")
 			Expect(err).Should(BeNil())
