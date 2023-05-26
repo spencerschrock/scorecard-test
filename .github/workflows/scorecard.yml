@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: "Run analysis"
-        uses: spencerschrock/scorecard-action@v2
+        uses: spencerschrock/scorecard-action@7fe8d54f4acf26efc826129c396173562e2c766c
         with:
           results_file: results.sarif
           results_format: sarif
