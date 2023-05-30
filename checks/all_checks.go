@@ -15,7 +15,7 @@
 // Package checks defines all Scorecard checks.
 package checks
 
-// foo
+// foo bar
 
 import (
 	"os"
